@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- LISTS -->
+        <nav>
+            <!-- unodered list -->
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+            <!-- ordered list -->
+            <ol>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- TABLES -->
+            <div>
+                <table>
+                <thead>
+                    <caption>Football goal</caption>
+                    <tr>
+                        <th>Sno.</th>
+                        <th colspan="2">name</th>
+                        <!-- <th>score</th> -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Santosh</td>
+                        <td >4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- ***********  FORMS   ************* -->
+        <div>
+            <h1>Travel form for our trip</h1>
+            <form action="form.php">
+                <div>
+
+                    Name: <input type="text" placeholder="Enter your name">
+                </div>
+                <br>
+                <div>
+
+                    Gender: <label for="sectionid">Male</label>
+                    <input type="radio" name="section" id="sectionid">
+                    <label for="name">Female</label>
+                    <input type="radio" name="section" id="name">
+                </div>
+                <br>
+                <div>
+                    <label for="emailid">Email
+                    </label>
+                    <input type="email" name="myemail" id="emailid">
+                </div>
+                <br>
+                <div>
+                    <label for="dateid">Date</label>
+                    <input type="date" name="mydate" id="dateid">
+                </div>
+                <br>
+                <div>
+                    Bonus: <input type="number">
+                </div>
+                <br>
+                <div>
+                    <label for="elligibleid">Are you elligible?</label>
+                
+                    <input type="checkbox" name="eligibility" id="elligibleid">
+                </div>
+                <br>
+                <div>
+                    Write about the trek:
+                    <br>
+                    <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit Now">
+                    
+                    <input type="reset" value="Reset Now">
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="selectid">Which place you wanna visit ???</label>
+                    <br>
+                    <select name="myplace" id="selectid">
+                        <option value="abc">Annapurna Base Camp</option>
+                        <option value="ebc">Everest Base Camp</option>
+                        <option value="langtang">Langtang</option>
+                        <option value="Kapuche">Kapuche</option>
+
+                    </select>
+                </div>
+
+            </form>
+        </div>
+
+
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+</html>
